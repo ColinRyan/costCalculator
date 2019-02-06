@@ -1,0 +1,91 @@
+body {
+  font-family: sans-serif;
+}
+
+form#cost-calculator {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  border: 1px solid #222;
+  padding: 1rem;
+  border-radius: 3px;
+  width: 27rem;
+}
+
+form#cost-calculator .field-container {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 1rem;
+}
+form#cost-calculator .field-container div {
+  display: flex;
+  flex-direction: row;
+  /* margin: 1rem 1rem; */
+  align-items: center;
+}
+form#cost-calculator .footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 1rem;
+}
+
+form#cost-calculator .footer #calculator-fee {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+form#cost-calculator input[type="number"] {
+  background-color: white;
+  padding: 0.5rem;
+  border: 1px solid #222;
+  font-size: 1.25rem;
+}
+
+form#cost-calculator label {
+  margin-bottom: 0.25rem;
+  font-weight: bold;
+}
+
+form#cost-calculator label.check {
+  margin-bottom: 0.25rem;
+  font-weight: normal !important;
+}
+
+form#cost-calculator select {
+  background-color: white;
+  padding: 0.5rem;
+  border: 1px solid #222;
+  font-size: 1.25rem;
+}
+form#cost-calculator input[type="checkbox"] {
+  /* background-color: #222; */
+  /* border: none; */
+  /* border-radius: 3px; */
+  /* padding: 1rem; */
+  color: white;
+  /* font-size: 1.5rem; */
+  cursor: pointer;
+  /* transition: 0.25s background-color; */
+  /* width: 50%; */
+  height: 2em;
+  width: 2em;
+  /* border: 1px solid black; */
+}
+form#cost-calculator input[type="submit"] {
+  background-color: #222;
+  border: none;
+  border-radius: 3px;
+  padding: 1rem;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: 0.25s background-color;
+  width: 50%;
+}
+
+form#cost-calculator input[type="submit"]:hover {
+  background-color: #787878;
+}
+

@@ -1,0 +1,17 @@
+{
+  "name": "costCalculator",
+  "version": "0.1.0",
+  "description": "It&#39;s a simple cost calculator",
+  "private": "false",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx parcel index.html --open",
+    "test": "jest"
+  },
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^24.1.0",
+    "parcel": "^1.11.0"
+  }
+}
