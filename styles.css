@@ -17,6 +17,8 @@ form#cost-calculator {
   padding: 1rem;
   border-radius: 3px;
   margin:0;
+  min-width: 0rem;
+  min-height: 0rem;
 }
 
 form#cost-calculator .field-container {
