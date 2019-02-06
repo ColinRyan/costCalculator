@@ -94,5 +94,5 @@ var createCostCalculator = function() {
     `;
   return form;
 };
-document.getElementById("app").appendChild(createCostCalculator());
+document.body.appendChild(createCostCalculator());
 

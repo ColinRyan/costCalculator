@@ -1,34 +1,41 @@
+html {
+  padding: 0;
+}
+
 body {
   font-family: sans-serif;
+  display: flex;
+  margin: 0;
 }
 
 form#cost-calculator {
   display: flex;
+  flex-grow: 4;
   flex-direction: column;
-  margin: 1rem;
+  justify-content: space-evenly;
   border: 1px solid #222;
   padding: 1rem;
   border-radius: 3px;
-  width: 27rem;
+  margin:0;
 }
 
 form#cost-calculator .field-container {
   display: flex;
   flex-direction: column;
-  margin: 1rem 1rem;
 }
+
 form#cost-calculator .field-container div {
   display: flex;
   flex-direction: row;
   /* margin: 1rem 1rem; */
   align-items: center;
 }
+
 form#cost-calculator .footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin: 1rem 1rem;
 }
 
 form#cost-calculator .footer #calculator-fee {
@@ -82,7 +89,7 @@ form#cost-calculator input[type="submit"] {
   font-size: 1.5rem;
   cursor: pointer;
   transition: 0.25s background-color;
-  width: 50%;
+  width: 12rem;
 }
 
 form#cost-calculator input[type="submit"]:hover {

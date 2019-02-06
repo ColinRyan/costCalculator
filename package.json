@@ -11,6 +11,7 @@
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
+    "gh-pages": "^2.0.1",
     "jest": "^24.1.0",
     "parcel": "^1.11.0"
   }
