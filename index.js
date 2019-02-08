@@ -57,7 +57,7 @@ var createCostCalculator = function() {
             <option data-addOns=true value="550">Pre-Listing Inspection (Includes WDO/Termite)</option>
             <option data-addOns=true value="375">Investor's Inspection (Includes WDO/Termite)</option>
             <option data-addOns=false value="125">Pre-Sale Evaluation</option>
-            <option data-addOns=false value="125">Annual Home Maintainence</option>
+            <option data-addOns=false value="325">Annual Home Maintainence</option>
             <option data-addOns=false value="125">Re-Inspection</option>
           </select>
         </div>
